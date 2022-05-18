@@ -1,0 +1,10 @@
+node
+{
+        stage 'checkout code'
+        git 'https://github.com/RushiD369/ConsoleApp.git'
+        stage 'build '
+        bat 'C:\\Users\\hp\\source\\repos\\ConsoleApp\\ConsoleApp.sln'
+        stage 'test'
+        bat '''C:/Users/hp/source/repos/ConsoleApp/ConsoleApp/bin/Debug/net6.0/ConsoleApp.exe TestProject/bin/Debug/net6.0/TestProject.dll "'
+    
+}
